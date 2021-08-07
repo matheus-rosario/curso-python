@@ -1,5 +1,5 @@
-'''Faça um programa que leia um ângulo qualquer e mostre
-na tela o valore seno, cosseno e tangente desse ângulo.'''
+#Faça um programa que leia um ângulo qualquer e mostre
+#na tela o valore seno, cosseno e tangente desse ângulo.
 import math
 angulo = float(input('Digite um ângulo '))
 seno = math.sin(math.radians(angulo))

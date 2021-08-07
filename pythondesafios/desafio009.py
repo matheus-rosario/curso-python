@@ -1,5 +1,5 @@
-'''Crie um programa que leia um numero inteiro qualquer e mostre na tela
-a sua tabuada.'''
+#Crie um programa que leia um numero inteiro qualquer e mostre na tela
+#a sua tabuada.
 n = int(input('Digite um número: '))
 print(f'A tabuada do número {n} é a seguinte:')
 print('')

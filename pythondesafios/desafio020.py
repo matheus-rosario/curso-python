@@ -1,7 +1,7 @@
-'''O mesmo professor do desafio anterior quer sortear
-a ordem de apresentação de trabalho dos alunos.
-Faça um programa que leia o nome dos quatro alunos
-e mostre a ordem sorteada.'''
+#O mesmo professor do desafio anterior quer sortear
+#a ordem de apresentação de trabalho dos alunos.
+#Faça um programa que leia o nome dos quatro alunos
+#e mostre a ordem sorteada.
 from random import shuffle
 aluno1 = str(input('Nome do Primeiro Aluno: '))
 aluno2 = str(input('Nome do Segundo Aluno: '))
