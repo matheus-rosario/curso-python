@@ -3,3 +3,5 @@
 #-Se é a hora de se alistar.
 #-Se já passou do tempo do alistamento.
 # Seu programa também deverá mostar o tempo que falta ou que passou do prazo.
+#import
+nascimento = int(input('Digite o ano do seu nascimento'))
