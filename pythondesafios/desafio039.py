@@ -3,5 +3,13 @@
 #-Se é a hora de se alistar.
 #-Se já passou do tempo do alistamento.
 # Seu programa também deverá mostar o tempo que falta ou que passou do prazo.
-#import
-nascimento = int(input('Digite o ano do seu nascimento'))
+from datetime import date
+ano= date.today().year
+nascimento = int(input('Digite o ano do seu nascimento: '))
+idade = ano - nascimento
+if idade == 18:
+  print('Já é hora de se alistar!')
+elif idade > 18:
+  print(f'Ja se passaram {idade - 18} anos do prazo para se alistar!')
+elif idade < 18:
+  print(f'Faltam {18 - idade} anos para se alistar!')
