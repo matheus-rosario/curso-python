@@ -4,8 +4,8 @@
 casa = float(input('Digite o valor da casa: R$'))
 salario = float(input('Digite o salário: R$'))
 anos = int(input('Digite a quantidade de anos: '))
-mensal = casa / anos
-if mensal <= salario - (salario * 30 / 100):
+mensal = casa / (anos * 12)
+if mensal <= salario * 30 / 100:
   print(f'O seu emprestimo foi aprovado!')
 else:
   print('O seu emprestimo foi recusado pois excede o valor de 30% do seu salário')
