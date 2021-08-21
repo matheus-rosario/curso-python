@@ -7,13 +7,13 @@
 altura = float(input('Digite sua altura (ex: 1.80): '))
 peso = float(input('Digite seu peso: '))
 imc = peso / (altura * altura)
-if int(imc) < 18.5:
-  print(f'IMC {int(imc)}, Abaixo do Peso')
-elif int(imc) >= 18.5 and int(imc) <= 25:
-  print(f'IMC {int(imc)}, Peso Ideal')
-elif int(imc) >= 25 and int(imc)<= 30:
-  print(f'IMC {int(imc)}, Sobrepeso')
-elif int(imc) >=30 and int(imc) <= 40:
-  print(f'IMC int{imc}, Obesidade')
-elif int(imc) > 40:
-  print(f'IMC {int(imc)}, Obesidade Mórbida')
+if imc < 18.5:
+  print(f'IMC {imc:.1f}, Abaixo do Peso')
+elif imc >= 18.5 and imc < 25:
+  print(f'IMC {imc:.1f}, Peso Ideal')
+elif imc >= 25 and imc < 30:
+  print(f'IMC {imc:.1f}, Sobrepeso')
+elif imc >=30 and imc < 40:
+  print(f'IMC int{imc:.1f}, Obesidade')
+elif imc > 40:
+  print(f'IMC {imc:.1f}, Obesidade Mórbida')
