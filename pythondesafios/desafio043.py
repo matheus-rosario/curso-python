@@ -15,5 +15,5 @@ elif imc >= 25 and imc < 30:
   print(f'IMC {imc:.1f}, Sobrepeso')
 elif imc >=30 and imc < 40:
   print(f'IMC int{imc:.1f}, Obesidade')
-elif imc > 40:
+elif imc >= 40:
   print(f'IMC {imc:.1f}, Obesidade Mórbida')
