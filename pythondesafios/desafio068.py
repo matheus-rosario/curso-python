@@ -28,19 +28,3 @@ while True:
     print('VOCÊ PERDEU!')
     print('-='*15)
     print(f'GAME OVER! Você venceu {contador} vezes.')
-
-
-
-  '''if soma % 2 == 0 and jogador == 'P':
-    print(f'Você jogou {número} e o computador {computador}. Total de {soma} DEU PAR')
-    print('VOCÊ VENCEU')
-    print('-'*15)
-    print('Vamos jogar novamente...')
-  if soma % 2 != 0 and jogador == 'I':
-    print(f'Você jogou {número} e o computador {computador}. Total de {soma} DEU IMPAR')
-    print('VOCÊ VENCEU')
-    print('-'*15)
-    print('Vamos jogar novamente...')
-  else:
-    print(f'Você jogou {número} e o computador {computador}. Total de {soma}')'''
-  
