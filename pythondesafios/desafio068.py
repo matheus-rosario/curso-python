@@ -8,7 +8,13 @@ print('-='*15)
 while True:
   computador = randint(0, 10)
   número = int(input('Digite um valor: '))
+  while número < 0:
+    print('Número inválido!')
+    número = int(input('Digite um valor: '))
   jogador = str(input('Par ou Ímpar? [P/I] ')).strip().upper()
+  while jogador != 'P' and jogador != 'i':
+    print('Opção Inválida!')
+    jogador = str(input('Par ou Ímpar? [P/I] ')).strip().upper()
   soma = computador + número
   print('-'*15)
   if soma % 2 == 0:
