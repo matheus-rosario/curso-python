@@ -8,7 +8,7 @@ while True:
   print('CADASTRE UMA PESSOA')
   print('-'*20)
   idade = int(input('Idade: '))
-  if idade > 18:
+  if idade >= 18:
     maiores += 1
   sexo = str(input('Sexo [M/F]: ')).strip().upper()
   while sexo != 'M' and sexo != 'F':
