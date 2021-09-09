@@ -28,3 +28,4 @@ while True:
     print('VOCÊ PERDEU!')
     print('-='*15)
     print(f'GAME OVER! Você venceu {contador} vezes.')
+    break
